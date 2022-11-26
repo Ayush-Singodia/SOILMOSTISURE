@@ -8,7 +8,7 @@ void setup() {
  Serial.begin(9600);
  pinMode(13, OUTPUT);
 }
-
+//here we use if else condition statement 
 void loop() {
 
  sensorValue = analogRead(sensorPin); 
